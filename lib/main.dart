@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_fawry/screens/homeScreen.dart';
 
 void main (){
-  runApp(MyFawryApp());
+  runApp(const MyFawryApp());
 }
 
 class MyFawryApp extends StatelessWidget {
@@ -14,7 +14,7 @@ class MyFawryApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.routeName,
       routes: {
-        HomeScreen.routeName:(context) => HomeScreen(),
+        HomeScreen.routeName:(context) => const HomeScreen(),
 
       },
     );
