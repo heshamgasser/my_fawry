@@ -51,7 +51,10 @@ class HomeScreen extends StatelessWidget {
                   style: TextStyle(color: Colors.black),
                 ),
                 SizedBox(width: 2),
-                Icon(Icons.warning_amber_outlined,color: Colors.black,)
+                Icon(
+                  Icons.warning_amber_outlined,
+                  color: Colors.black,
+                ),
               ],
             ),
           ),
